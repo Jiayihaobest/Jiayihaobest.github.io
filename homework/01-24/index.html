@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
+<body>
+    <div class="w3-cursive">
+        <div class="w3-container w3-dark-grey">
+            <h2>who am i ?</h2>
+            <button onclick="prompt_name()">hit me</button>
+            <p id="demo">
+
+            </p>
+        </div>
+
+        <div class="w3-container w3-red">
+            <h2>what do i look like ?</h2>
+            <img id="ml" hidden="hidden" src="02love.jpg" class="w3-round">
+            <button id="bt2" onclick="prompt_img()">hit me</button>
+            <p></p>
+        </div>
+
+        <div class="w3-container w3-yellow">
+            <h2>what is my bio ?</h2>
+            <button id="bt3" onclick="prompt_bio()">hit me</button>
+        </div>
+        <p id="bio">
+
+        </p>
+    </div>
+</body>
+
+</html>
+
+<script>
+    function prompt_name() {
+        var x;
+        var person = prompt("please enter your name", "ゼロツー / zero two");
+        if (person != null && person != "") {
+            x = "hi " + person + "!";
+            document.getElementById("demo").innerHTML = x;
+        }
+    }
+
+    function prompt_img() {
+        let element = document.getElementById("ml");
+        let bt2 = document.getElementById("bt2");
+        var person = prompt("please enter my name", "zero two");
+
+        let hidden = element.getAttribute("hidden");
+
+        if (person == "zero two" && hidden) {
+            element.removeAttribute("hidden");
+            bt2.innerText = "reset";
+
+        } else {
+            element.setAttribute("hidden", "hidden");
+            bt2.innerText = "hit me!";
+        }
+    }
+
+    function prompt_bio() {
+        window.open("https://darling-in-the-franxx.fandom.com/wiki/Zero_Two");
+    }
+
+</script>
+
+<style>
+    body {
+        background-color: lightsalmon;
+    }
+
+</style>

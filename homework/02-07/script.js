@@ -182,7 +182,7 @@ d3.csv("datasets/cities-sm.csv").then(function(data){
     const min_pop = d3.min(data, getValue);
     const max_pop = d3.max(data, getValue);
 
-    console.log(min_pop, max_pop);
+    // console.log(min_pop, max_pop);
 
     // GROUPING DATA
 
@@ -199,9 +199,9 @@ d3.csv("datasets/cities-sm.csv").then(function(data){
     });
 
     // Returns a Map
-    console.log(grouped_data);
+    // console.log(grouped_data);
 
     // Then, you can query the map for a particular group.
-    console.log(grouped_data.get("boston"));
+    // console.log(grouped_data.get("boston"));
 
 });

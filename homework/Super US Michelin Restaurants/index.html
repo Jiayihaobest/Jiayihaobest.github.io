@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>US Michelin Restaurants</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <style>
+  body {
+   font-family: serif;
+   background-color: #FFE6E6;
+   color: #000000;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+  }
+  header {
+   background-color: #FFFFFF;
+   border-bottom: 1px solid #DDDDDD;
+   padding: 1rem;
+  }
+  h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   margin: 2rem 0 1rem;
+  }
+  .intro {
+   font-size: 1.5rem;
+   margin: 0 1rem 1rem;
+  }
+  .visualization-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem;
+  }
+  .visualization {
+   display: inline-block;
+   margin: 1rem;
+   padding: 1rem;
+   background-color: #FFFFFF;
+   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   max-width: 30%;
+   vertical-align: top;
+  }
+  .visualization h2 {
+   font-size: 1.5rem;
+   margin-top: 0;
+   text-align: center;
+  }
+  .visualization p {
+   font-size: 1.2rem;
+   margin-top: 0.5rem;
+  }
+  #game-section {
+        background-color: white;
+        padding: 20px;
+        margin-top: 50px;
+        text-align: center;
+      }
+
+      #game-title {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 20px 0;
+      }
+
+      #game-container {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      #game-container button {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #game-container p {
+        font-size: 18px;
+        margin: 20px 0;
+      }
+ </style>
+</head>
+<body>
+ <header>
+  <h1>US Michelin Restaurants</h1>
+ </header>
+ <main>
+  <p class="intro">Discover the top Michelin-starred restaurants in the United States through our interactive visualizations.</p>
+  <div class="visualization-container">
+   <div class="visualization">
+    <h2>Visualization 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, magna a volutpat aliquam, urna elit pellentesque elit, vel ultrices odio eros et nunc.</p>
+   <!-- Add your visualization code here -->
+   </div>
+   <div class="visualization">
+    <h2>Visualization 2</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, magna a volutpat aliquam, urna elit pellentesque elit, vel ultrices odio eros et nunc.</p>
+   <!-- Add your visualization code here -->
+   </div>
+   <div class="visualization">
+    <h2>Visualization 3</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus auctor, magna a volutpat aliquam, urna elit pellentesque elit, vel ultrices odio eros et nunc.</p>
+   <!-- Add your visualization code here -->
+   </div>
+    <div id="game-section">
+        <h2 id="game-title">A Simple Little Game</h2>
+        <div id="game-container">
+          <button id="start-btn">Start Game</button>
+          <p id="game-result"></p>
+        </div>
+ </main>
+</body>
+</html>

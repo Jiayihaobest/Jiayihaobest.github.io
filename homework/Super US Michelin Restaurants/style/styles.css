@@ -1,0 +1,84 @@
+
+  body {
+   background-color: #ffd63d;
+   color: #000000;
+   margin: 0;
+   padding: 0;
+   text-align: center;
+  }
+  header {
+    font-family: "Brush Script MT";
+   background-color: #ffd63d;
+   border-bottom: 1px solid #DDDDDD;
+   padding: 1rem;
+  }
+  h1 {
+   font-size: 3rem;
+   font-weight: bold;
+   margin: 2rem 0 1rem;
+  }
+  .intro {
+   font-family: "Optima";
+   font-size: 1.5rem;
+   margin: 0 1rem 1rem;
+  }
+  .visualization-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 1rem;
+  }
+  .visualization {
+   display: inline-block;
+   margin: 1rem;
+   padding: 1rem;
+   background-color: #FFFFFF;
+   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+   border-radius: 10px;
+   max-width: 30%;
+   vertical-align: top;
+  }
+  .visualization h2 {
+   font-size: 1.5rem;
+   margin-top: 0;
+   text-align: center;
+  }
+  .visualization p {
+   font-size: 1.2rem;
+   margin-top: 0.5rem;
+  }
+  #game-section {
+        background-color: white;
+        padding: 20px;
+        margin-top: 50px;
+        text-align: center;
+      }
+
+      #game-title {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: sans-serif;
+        margin: 0;
+        padding: 20px 0;
+      }
+
+      #game-container {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      #game-container button {
+        font-size: 18px;
+        padding: 10px 20px;
+        margin: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      #game-container p {
+        font-size: 18px;
+        margin: 20px 0;
+      }

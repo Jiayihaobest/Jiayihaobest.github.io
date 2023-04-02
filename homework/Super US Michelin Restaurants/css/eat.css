@@ -1,3 +1,66 @@
+/* -------------- This is css for main page------------------------------ */
+body {
+  background-color: #ffd63d;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  font-family: "Papyrus";
+  background-color: #ffd63d;
+  border-bottom: 1px solid #DDDDDD;
+  padding: 1rem;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+}
+
+.intro {
+  font-family: "Optima";
+  font-size: 1.5rem;
+  margin: 0 1rem 1rem;
+}
+
+#game-section {
+  background-color: white;
+  padding: 20px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+#game-title {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Papyrus";
+  margin: 0;
+  padding: 20px 0;
+}
+
+#game-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#game-container button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#game-container p {
+  font-size: 18px;
+  margin: 20px 0;
+}
 /* -------------- This is css for bar chart------------------------------ */
   .title{
     display: flex;
@@ -10,11 +73,19 @@
     height: 30px;
     
     border-radius: 3px;
-    background-color: #5DADE2 ;
+    background-color: #4CAF50 ;
     text-align: center;
     line-height: 30px;
     font-size: .8em;
 
+ font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
     }
     .change:hover{
     cursor: pointer;
@@ -23,8 +94,8 @@
     .award{
       width: 40%;
       height: 100%;
-      text-align: center;
+      text-align: right;
       font-size: 1.2em;
-
+      font-family: "Papyrus";
     }
 

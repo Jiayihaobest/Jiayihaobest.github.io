@@ -1,4 +1,4 @@
-d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
+d3.csv('../data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
 
 
     let dataGroupbyAwardState=d3.groups(data,d=>d.Award,d=>d.Location).reverse()

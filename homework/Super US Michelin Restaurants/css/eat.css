@@ -102,7 +102,8 @@ h1 {
       font-family: "Papyrus";
     }
 
-/* -------------- This is css for pie chart------------------------------ */
+
+/* -------------- This is css for bar chart------------------------------ */
 .title{
   display: flex;
   justify-content: space-around;

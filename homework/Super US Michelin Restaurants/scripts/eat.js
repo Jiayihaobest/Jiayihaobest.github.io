@@ -109,7 +109,7 @@ d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
 
   })//end of csv
   
-  d3.csv('../data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
+  d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
 
 
   let dataGroupbyPriceState=d3.groups(data,d=>d.Price,d=>d.Location).reverse()
@@ -225,7 +225,7 @@ d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
     //This is pie js
 
 
-    d3.csv('../data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
+    d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
 
 
       let dataGroupbyCuisine=d3.groups(data,d=>d.Cuisine)

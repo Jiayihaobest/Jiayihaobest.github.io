@@ -1,6 +1,6 @@
 /* -------------- This is css for main page------------------------------ */
 body {
-  background-color: #ffd63d;
+  background-color: #f4d7e9;
   color: #000000;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@ body {
 
 header {
   font-family: "Papyrus";
-  background-color: #ffd63d;
+  background-color: #ce94b7;
   border-bottom: 1px solid #DDDDDD;
   padding: 1rem;
 }
@@ -50,7 +50,7 @@ h1 {
   font-size: 18px;
   padding: 10px 20px;
   margin: 10px;
-  background-color: #4CAF50;
+  background-color: #5195c9;
   color: white;
   border: none;
   border-radius: 5px;
@@ -133,3 +133,36 @@ h1 {
     font-size: 1.2em;
 
   }
+
+  /* ---------------- SOCIAL MEDIA BUTTONS --------------------- */
+.social {
+  position: absolute;
+  left: 50px;
+  
+  }
+  
+  .container .socialbuttons a:link {
+  text-decoration: none;
+  float:left;
+  margin-right: 10px;
+  background-color: white;
+  }
+  
+  .container .socialbuttons a:visited {
+  text-decoration: none;
+  float:left;
+  margin-right: 10px;
+  background-color: white;
+  }
+  
+  .container .socialbuttons a:hover { /* make grey scale */
+  filter: grayscale(100%);
+  text-decoration: none;
+  float:left;
+  margin-right: 10px;
+  background-color: white;
+  }
+
+  
+
+

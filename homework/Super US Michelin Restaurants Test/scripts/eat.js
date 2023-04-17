@@ -41,7 +41,7 @@ d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
 
       // let mycolor=['red',sss]
       let colorScale=d3.scaleLinear().domain(d3.extent(curData, d=>d[1].length))
-      .range(['#f78f697a','#900C3F'])
+      .range(['#d9d2e9','#674ea7'])
 
       //reload xscale
       xScale.domain(curData.map(d=>d[0])) 
@@ -159,7 +159,7 @@ d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
         
       let barScale=d3.scaleLinear()
         .domain(d3.extent(curData, d=>d[1].length))
-        .range(['#E0FFFF','#0000FF'])
+        .range(['#f78f697a','#900C3F'])
 
 
 
@@ -320,3 +320,4 @@ d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data=>{
     
      
   })//end of csv 
+

@@ -204,7 +204,7 @@ d3.csv('./data/我的宝贝US Michelin Star Restaurants.csv').then(data => {
   }
 
 
-  let curOption = 1
+  let curOption = 0
   drawUpdateBar(dataGroupbyPriceState[curOption][1])
 
   d3.select('.change2')

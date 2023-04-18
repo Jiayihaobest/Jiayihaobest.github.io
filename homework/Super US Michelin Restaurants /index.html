@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>How to choose your Michelin restaurants in the US?</title>
+  <link rel="stylesheet" type="text/css" href="css/eat.css">
+  <meta charset="UTF-8">
+  <meta name="author" content="Jiayi Hao">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="./scripts/d3.v6.js"></script>
+  <script src="./scripts/eat.js"></script>
+
+</head>
+
+
+
+
+<body>
+  <main>
+    <header>
+      <h1>Choose Your US Michelin Restaurants!</h1>
+      <h2>Discover your own Michelin-starred restaurants in the United States through the interactive visualizations.
+      </h2>
+      <iframe src="https://giphy.com/embed/uMgwmFuDYwFmgzbgqA" width="480" height="182" frameBorder="0"
+        class="giphy-embed" allowFullScreen></iframe>
+
+    </header>
+    <div class="container">
+
+      <p>Many people feel that Michelin restaurants are out of reach, as if only the old money can afford them. Many
+        people have the impression that Michelin restaurants are expensive and difficult to book. So how do ordinary
+        people eat Michelin restaurants? How do they find the right restaurant?
+
+      <p>
+        It seems that for most people, booking and finding a restaurant on<a href="https://guide.michelin.com/en">
+          the official MICHELIN Guide website</a> is a good choice.
+      </p>
+
+      <p>
+        If the bewildering array of dishes and complicated filters on Michelin's website still doesn't help you find the
+        right restaurant for you, let's take a simple approach to restaurant selection.
+      </p>
+    </div>
+
+    <!------------ the pie chart -------------->
+    <h1>The Pie Chart</h1>
+
+    <div class="container">
+      <p>See the pie chart to see the proportions of different dishes in Michelin restaurants. </p>
+
+      <p>Then choose the dishes you are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+    </div>
+
+    <div id="pie"></div>
+
+    <!------------ the bar chart 1 -------------->
+
+
+    <h1>The Bar Chart 1</h1>
+
+    <div class="container">
+      <p>See the pie chart to see the proportions of different dishes in Michelin restaurants. Then choose the dishes
+        you are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+      <p>Then choose the dishes you are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+
+    </div>
+
+    <div class="title">
+      <div class="award1 award">1 MICHELIN Star</div>
+
+    </div>
+
+
+    <div id="bar1"></div>
+
+
+    <div class="change1 change">Change</div>
+    <!------------ the bar chart 2 -------------->
+    <h1>The Bar Chart 2</h1>
+
+    <div class="container">
+      <p>See the pie chart to see the proportions of different dishes in Michelin restaurants.Then choose the dishes you
+        are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+      <p>Then choose the dishes you are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+
+    </div>
+
+    <div class="title">
+      <div class="award2 award">$</div>
+
+    </div>
+
+
+    <div id="bar2"></div>
+
+
+    <div class="change2 change">Change</div>
+
+    <!------------ the Map -------------->
+    <h1>The Map</h1>
+
+    <div class="container">
+      <p>See the pie chart to see the proportions of different dishes in Michelin restaurants.Then choose the dishes you
+        are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+      <p>Then choose the dishes you are interested in, you can choose the most popular one, or you can choose the
+        unpopular one. We've compiled the top 10 most popular.</p>
+
+
+    </div>
+
+    <iframe src="https://www.google.com/maps/d/embed?mid=1gedMVwv3R3hum4-vk0I-42CARLwlq4g&hl=en&ehbc=2E312F" width="80%"
+      height="680"></iframe>
+    <!------------ the Dishes -------------->
+
+    <h2>About Michelin Dishes</h2>
+    <p>Here are some of the Michelin dishes I photographed when I went to a Michelin restaurant.</p>
+
+    <div class="row">
+      <div class="column">
+        <img src="images/Michelin dish1.jpeg" alt="Snow" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/Michelin dish2.jpeg" alt="Forest" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/Michelin dish3.jpeg" alt="Mountains" style="width:100%">
+      </div>
+      <div class="column">
+        <img src="images/Michelin dish4.jpeg" alt="Mountains" style="width:100%">
+      </div>
+    </div>
+
+    <!------------ the game section -------------->
+    <div id="game-section">
+      <h2 id="game-title">Randomly Generate Your Michelin Restaurant</h2>
+      <div id="game-container">
+        <button id="start-btn">Start Game</button>
+        <p id="game-result"></p>
+      </div>
+
+
+      <!-- ---------------- Social media buttons add to HTML below byline ------------------------------------------->
+      <div class="social">
+        <div class="socialbuttons">
+          <!-- facebook -->
+          <a href="https://www.facebook.com/share.php?u=https://journalismdesign.camd.northeastern.edu/clean/Hao &amp;title=ADD YOUR TITLE"
+            target="blank" style="border-bottom: solid 0 white; margin-right: 10px"><i class="fa fa-facebook"></i><img
+              class="buttons" src="https://journalismdesign.camd.northeastern.edu/lostandfound/images/facebook.png"
+              width="40px"></a>
+
+          <!-- twitter -->
+          <a href="https://twitter.com/intent/tweet?status=TWEET COPY HERE via @NUjournalism @CAMD+ https://journalismdesign.camd.northeastern.edu/clean/Hao"
+            target="blank" style="border-bottom: solid 0 white"><i class="fa fa-twitter"></i><img class="buttons"
+              src="https://journalismdesign.camd.northeastern.edu/lostandfound/images/twitter.png" width="40px"></a>
+        </div>
+      </div>
+  </main>
+
+</body>
+
+
+
+
+</body>
+
+</html>

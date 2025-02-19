@@ -14,7 +14,7 @@
 > I am a graduate student in data journalism at Northeastern University and a beginner in data visualization. 
 > Now I have just stepped into the field of data visualization, and I still struggle with complex functions and formulas.
 > However, I am enjoying the pain and pleasure of coding.
-> May technology and digital live forever.
+> May technology and digital live forever！
 
 
 <!--
